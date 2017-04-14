@@ -32,3 +32,16 @@
 
 // don't forget your semicolons, and don't overthink! Broken down into sentence form, this reads: 
 // "I want to determine if a number is even or odd. Let's create a thing that takes in a number, divides it by two, then considers if it's 0 or not. If it's zero, return even. If not, return odd."
+
+
+// Here's another (better) solution I learned of through community answers: 
+function even_or_odd(number) {
+  return number % 2 ? "Odd" : "Even"  
+  // look- everything is condensed! same logic, but written more efficiently. 
+}
+
+
+
+
+
+
